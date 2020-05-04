@@ -41,4 +41,221 @@ In each of these three scenarios, the patient is assured personal control and tr
 
 As an SRCT app developer, you start off by creating a minimal Trustee Directory installation (A, above) and at least one Trustee account for testing. Deployment instructions are as follows:
 
-[Insert steps here]
+## Trustee Community Operations Level
+
+<table>
+  <tr>
+   <td><strong>Trustee Community</strong>
+   </td>
+   <td><strong>Level 1</strong>
+   </td>
+   <td><strong>Level 2</strong>
+   </td>
+   <td><strong>Level 3</strong>
+   </td>
+   <td><strong>Level 4</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Description
+   </td>
+   <td>Least responsibility
+   </td>
+   <td>Enhanced privacy
+   </td>
+   <td>Sponsorship and transparency
+   </td>
+   <td>Revenue and
+<p>
+“White label”
+   </td>
+  </tr>
+  <tr>
+   <td>Member pays (monthly)
+   </td>
+   <td>Credit card to HIE of One
+   </td>
+   <td>Credit card to HIE of One
+   </td>
+   <td>Community decides
+   </td>
+   <td>Community decides
+   </td>
+  </tr>
+  <tr>
+   <td>Hosting Costs
+   </td>
+   <td>None
+   </td>
+   <td>Proxy hosting
+   </td>
+   <td>Directory and Trustee hosting
+   </td>
+   <td>Directory and Trustee hosting
+   </td>
+  </tr>
+  <tr>
+   <td>Software Costs
+   </td>
+   <td>Free
+   </td>
+   <td>Free
+   </td>
+   <td>Free
+   </td>
+   <td>Free
+   </td>
+  </tr>
+  <tr>
+   <td>Setup Costs
+   </td>
+   <td>Website design
+   </td>
+   <td>Proxy setup
+   </td>
+   <td>Trustee setup
+   </td>
+   <td>Trustee setup
+   </td>
+  </tr>
+  <tr>
+   <td>Physician Credentials
+   </td>
+   <td>Proxied through HIE of One
+   </td>
+   <td>Proxied through Community
+   </td>
+   <td>Proxied through Community
+   </td>
+   <td>Direct from Issuer
+   </td>
+  </tr>
+  <tr>
+   <td>Website Modifications
+   </td>
+   <td>Get Trustee Button
+   </td>
+   <td>Get uPort credentials and 
+   </td>
+   <td>Directory is for administrative support only
+   </td>
+   <td>Issue credentials for Directory access
+   </td>
+  </tr>
+  <tr>
+   <td>Patient App Registration
+   </td>
+   <td>Proxied through HIE of One
+   </td>
+   <td>Proxied through HIE of One
+   </td>
+   <td>Proxied through Community
+   </td>
+   <td>Proxied through Community
+   </td>
+  </tr>
+  <tr>
+   <td>Signature Timestamps
+   </td>
+   <td>Merkelized by HIE of One
+   </td>
+   <td>Merkelized by Community
+   </td>
+   <td>Merkelized by Community
+   </td>
+   <td>Merkelized by Community
+   </td>
+  </tr>
+  <tr>
+   <td>Signed Document Display
+   </td>
+   <td>Displayed by HIE of One
+<p>
+(no record kept)
+   </td>
+   <td>Displayed by Community
+<p>
+(no record kept)
+   </td>
+   <td>Displayed by Community
+<p>
+(no record kept)
+   </td>
+   <td>Verifier installs display app
+   </td>
+  </tr>
+  <tr>
+   <td>Legal Records Retention
+   </td>
+   <td>Secure email to issuer physician
+   </td>
+   <td>Secure email or IPFS
+   </td>
+   <td>Secure email or IPFS
+   </td>
+   <td>Secure email or IPFS
+   </td>
+  </tr>
+  <tr>
+   <td>Privacy Policy
+   </td>
+   <td>Community has no data access
+   </td>
+   <td>Proxy responsibility
+   </td>
+   <td>Support access
+   </td>
+   <td>Value added access
+   </td>
+  </tr>
+  <tr>
+   <td>Support Policy
+   </td>
+   <td>Forward all to HIE of One
+   </td>
+   <td>Forward all to HIE of One
+   </td>
+   <td>First call
+   </td>
+   <td>First call
+   </td>
+  </tr>
+  <tr>
+   <td>Revenue to Community
+   </td>
+   <td>None
+   </td>
+   <td>None
+   </td>
+   <td>Support only
+   </td>
+   <td>Data use sales
+   </td>
+  </tr>
+  <tr>
+   <td>Revenue to
+<p>
+HIE of One
+   </td>
+   <td>Monthly Trustee hosting payment
+   </td>
+   <td>Monthly Trustee hosting payment
+   </td>
+   <td>Licensing and Support
+   </td>
+   <td>Licensing and Support
+   </td>
+  </tr>
+  <tr>
+   <td>Monitoring
+   </td>
+   <td>Monthly report (aggregate only)
+   </td>
+   <td>Monthly report (aggregate only)
+   </td>
+   <td>Live analytics
+   </td>
+   <td>Live analytics
+   </td>
+  </tr>
+</table>
