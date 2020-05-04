@@ -1,4 +1,4 @@
-# Trustee Immunity Passport Product Sprint
+# Trustee Immunity Passport Working Prototype Sprint
 
 ## About Trustee
 
@@ -10,7 +10,7 @@ The development of contact tracing and other symptom reporting apps has exploded
 
 ## Sprint Overview
 
-The intention of this sprint is to help developers who are working on symptom reporting and contact tracing (SRCT) apps to learn how Trustee and the Trustee Directory can enable their products to be part of a larger reporting ecosystem, and also to serve group policies to enable the distribution of patient data as a component toward developing a solution to allow people to “go back to work and school again” during the next stage of the current pandemic.
+The intention of this sprint is to help developers who are working on symptom reporting and contact tracing (SRCT) apps to learn how Trustee and the Trustee Directory can enable their products to be part of a larger ecosystem, and also to serve group policies to enable the distribution of patient data. Together, SRCT apps an Trustee universal health record infrastructure promote solutions to allow people to “go back to work and school again” during the next stage of the current pandemic.
 
 ## Standards Based Reporting
 
@@ -31,15 +31,17 @@ The patient-level Trustee uses a standard OAuth flow and optional UMA extensions
 ## Trustee Signup
 
 Patients get their Trustee in one of three ways:
-* A In a “white label” presentation linked to a SRCT app
-* B In a group “call to action” scenario, as through a community or company website that might also offer their constituents a choice of compatible apps.
+* A In a group “call to action” scenario, as through a community or company website that might also offer their constituents a choice of compatible apps.
+* B In a “white label” presentation linked to a SRCT app
 * C As an a la carte service paid by the individual independent of any particular app
 
 In each of these three scenarios, the patient is assured personal control and tracking of how their information is stored and shared. In all three, the patient is presented with a set of commonly held policies and default settings as suggested by in the Trustee Directory to opt in and out of, much like a GDPR compliant cookie warning appears to end users during a visit to a corporate website.
 
 ## Deployment
 
-As an SRCT app developer, you start off by creating a minimal Trustee Directory installation (A, above) and at least one Trustee account for testing. Deployment instructions are as follows:
+As an SRCT app developer, you can focus on Trustee (the consent manager and privacy agent) and make use of NOSH (the electronic health record and industry standard data model) with little or no modification. SRCT developers can often use the Trustee Directory operated HIE of One.
+
+Developers focused on a particular community of patients, as opposed to a particular app, start off by working with a baseline Trustee Directory installation modify or implement features along the various features in the table below.
 
 ## Trustee Community Operations Level
 
