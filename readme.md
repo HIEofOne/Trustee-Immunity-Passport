@@ -31,9 +31,9 @@ The patient-level Trustee uses a standard OAuth flow and optional UMA extensions
 ## Trustee Signup
 
 Patients get their Trustee in one of three ways:
-A - In a “white label” presentation linked to a SRCT app
-B - In a group “call to action” scenario, as through a community or company website that might also offer their constituents a choice of compatible apps.
-C - As an a la carte service paid by the individual independent of any particular app
+* A In a “white label” presentation linked to a SRCT app
+* B In a group “call to action” scenario, as through a community or company website that might also offer their constituents a choice of compatible apps.
+* C As an a la carte service paid by the individual independent of any particular app
 
 In each of these three scenarios, the patient is assured personal control and tracking of how their information is stored and shared. In all three, the patient is presented with a set of commonly held policies and default settings as suggested by in the Trustee Directory to opt in and out of, much like a GDPR compliant cookie warning appears to end users during a visit to a corporate website.
 
