@@ -1,4 +1,4 @@
-# Trustee Immunity Passport Product Sprint
+# Trustee Immunity Passport Working Prototype Sprint
 
 ## About Trustee
 
@@ -10,7 +10,7 @@ The development of contact tracing and other symptom reporting apps has exploded
 
 ## Sprint Overview
 
-The intention of this sprint is to help developers who are working on symptom reporting and contact tracing (SRCT) apps to learn how Trustee and the Trustee Directory can enable their products to be part of a larger reporting ecosystem, and also to serve group policies to enable the distribution of patient data as a component toward developing a solution to allow people to “go back to work and school again” during the next stage of the current pandemic.
+The intention of this sprint is to help developers who are working on symptom reporting and contact tracing (SRCT) apps to learn how Trustee and the Trustee Directory can enable their products to be part of a larger ecosystem, and also to serve group policies to enable the distribution of patient data. Together, SRCT apps an Trustee universal health record infrastructure promote solutions to allow people to “go back to work and school again” during the next stage of the current pandemic.
 
 ## Standards Based Reporting
 
@@ -31,14 +31,233 @@ The patient-level Trustee uses a standard OAuth flow and optional UMA extensions
 ## Trustee Signup
 
 Patients get their Trustee in one of three ways:
-* A In a “white label” presentation linked to a SRCT app
-* B In a group “call to action” scenario, as through a community or company website that might also offer their constituents a choice of compatible apps.
+* A In a group “call to action” scenario, as through a community or company website that might also offer their constituents a choice of compatible apps.
+* B In a “white label” presentation linked to a SRCT app
 * C As an a la carte service paid by the individual independent of any particular app
 
 In each of these three scenarios, the patient is assured personal control and tracking of how their information is stored and shared. In all three, the patient is presented with a set of commonly held policies and default settings as suggested by in the Trustee Directory to opt in and out of, much like a GDPR compliant cookie warning appears to end users during a visit to a corporate website.
 
 ## Deployment
 
-As an SRCT app developer, you start off by creating a minimal Trustee Directory installation (A, above) and at least one Trustee account for testing. Deployment instructions are as follows:
+As an SRCT app developer, you can focus on Trustee (the consent manager and privacy agent) and make use of NOSH (the electronic health record and industry standard data model) with little or no modification. SRCT developers can often use the Trustee Directory operated HIE of One.
 
-[Insert steps here]
+Developers focused on a particular community of patients, as opposed to a particular app, start off by working with a baseline Trustee Directory installation modify or implement features along the various features in the table below.
+
+## Trustee Community Operations Level
+
+<table>
+  <tr>
+   <td><strong>Trustee Community</strong>
+   </td>
+   <td><strong>Level 1</strong>
+   </td>
+   <td><strong>Level 2</strong>
+   </td>
+   <td><strong>Level 3</strong>
+   </td>
+   <td><strong>Level 4</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Description
+   </td>
+   <td>Least responsibility
+   </td>
+   <td>Enhanced privacy
+   </td>
+   <td>Sponsorship and transparency
+   </td>
+   <td>Revenue and
+<p>
+“White label”
+   </td>
+  </tr>
+  <tr>
+   <td>Member pays (monthly)
+   </td>
+   <td>Credit card to HIE of One
+   </td>
+   <td>Credit card to HIE of One
+   </td>
+   <td>Community decides
+   </td>
+   <td>Community decides
+   </td>
+  </tr>
+  <tr>
+   <td>Hosting Costs
+   </td>
+   <td>None
+   </td>
+   <td>Proxy hosting
+   </td>
+   <td>Directory and Trustee hosting
+   </td>
+   <td>Directory and Trustee hosting
+   </td>
+  </tr>
+  <tr>
+   <td>Software Costs
+   </td>
+   <td>Free
+   </td>
+   <td>Free
+   </td>
+   <td>Free
+   </td>
+   <td>Free
+   </td>
+  </tr>
+  <tr>
+   <td>Setup Costs
+   </td>
+   <td>Website design
+   </td>
+   <td>Proxy setup
+   </td>
+   <td>Trustee setup
+   </td>
+   <td>Trustee setup
+   </td>
+  </tr>
+  <tr>
+   <td>Physician Credentials
+   </td>
+   <td>Proxied through HIE of One
+   </td>
+   <td>Proxied through Community
+   </td>
+   <td>Proxied through Community
+   </td>
+   <td>Direct from Issuer
+   </td>
+  </tr>
+  <tr>
+   <td>Website Modifications
+   </td>
+   <td>Get Trustee Button
+   </td>
+   <td>Get uPort credentials and 
+   </td>
+   <td>Directory is for administrative support only
+   </td>
+   <td>Issue credentials for Directory access
+   </td>
+  </tr>
+  <tr>
+   <td>Patient App Registration
+   </td>
+   <td>Proxied through HIE of One
+   </td>
+   <td>Proxied through HIE of One
+   </td>
+   <td>Proxied through Community
+   </td>
+   <td>Proxied through Community
+   </td>
+  </tr>
+  <tr>
+   <td>Signature Timestamps
+   </td>
+   <td>Merkelized by HIE of One
+   </td>
+   <td>Merkelized by Community
+   </td>
+   <td>Merkelized by Community
+   </td>
+   <td>Merkelized by Community
+   </td>
+  </tr>
+  <tr>
+   <td>Signed Document Display
+   </td>
+   <td>Displayed by HIE of One
+<p>
+(no record kept)
+   </td>
+   <td>Displayed by Community
+<p>
+(no record kept)
+   </td>
+   <td>Displayed by Community
+<p>
+(no record kept)
+   </td>
+   <td>Verifier installs display app
+   </td>
+  </tr>
+  <tr>
+   <td>Legal Records Retention
+   </td>
+   <td>Secure email to issuer physician
+   </td>
+   <td>Secure email or IPFS
+   </td>
+   <td>Secure email or IPFS
+   </td>
+   <td>Secure email or IPFS
+   </td>
+  </tr>
+  <tr>
+   <td>Privacy Policy
+   </td>
+   <td>Community has no data access
+   </td>
+   <td>Proxy responsibility
+   </td>
+   <td>Support access
+   </td>
+   <td>Value added access
+   </td>
+  </tr>
+  <tr>
+   <td>Support Policy
+   </td>
+   <td>Forward all to HIE of One
+   </td>
+   <td>Forward all to HIE of One
+   </td>
+   <td>First call
+   </td>
+   <td>First call
+   </td>
+  </tr>
+  <tr>
+   <td>Revenue to Community
+   </td>
+   <td>None
+   </td>
+   <td>None
+   </td>
+   <td>Support only
+   </td>
+   <td>Data use sales
+   </td>
+  </tr>
+  <tr>
+   <td>Revenue to
+<p>
+HIE of One
+   </td>
+   <td>Monthly Trustee hosting payment
+   </td>
+   <td>Monthly Trustee hosting payment
+   </td>
+   <td>Licensing and Support
+   </td>
+   <td>Licensing and Support
+   </td>
+  </tr>
+  <tr>
+   <td>Monitoring
+   </td>
+   <td>Monthly report (aggregate only)
+   </td>
+   <td>Monthly report (aggregate only)
+   </td>
+   <td>Live analytics
+   </td>
+   <td>Live analytics
+   </td>
+  </tr>
+</table>
