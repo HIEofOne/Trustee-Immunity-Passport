@@ -1,4 +1,4 @@
-# Trustee Immunity Passport Working Prototype Sprint
+# Trustee Health Passport for COVID-19 Working Prototype Sprint
 
 ## About Trustee
 
